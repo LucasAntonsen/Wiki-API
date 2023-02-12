@@ -18,7 +18,7 @@ Create One Article
 http://localhost:3000/articles  
 
 Request Body (x-www-form-urlencoded):  
-key, value  
+key: value  
 *title: articleTitle  
 content: articleContent*  
 
@@ -27,7 +27,7 @@ Updates Specific Article with a New Article
 http://localhost:3000/articles/specificArticleTitle  
 
 Request Body (x-www-form-urlencoded):  
-key, value  
+key: value  
 *title: articleTitle  
 content: articleContent*  
 
@@ -36,7 +36,7 @@ Updates Specific Article Content
 http://localhost:3000/articles/specificArticleTitle
 
 Request Body (x-www-form-urlencoded):  
-key, value  
+key: value  
 *title: articleTitle  
 content: articleContent*
 
@@ -44,3 +44,5 @@ content: articleContent*
 Delete All Articles  
 http://localhost:3000/articles  
 
+Delete Specific Article  
+http://localhost:3000/articles/specificArticleTitle
